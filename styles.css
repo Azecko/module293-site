@@ -12,6 +12,7 @@ li {
 }
 html {
   height: 100%;
+  background-color: rgb(36, 36, 36);
 }
 
 /* header */
@@ -147,4 +148,38 @@ html {
   .header .menu-icon {
     display: none;
   }
+}
+
+/* "Main" */
+.welcome {
+  height: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.welcome h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: clamp(2rem, 6vw, 5rem);
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 7px rgb(119, 119, 119);
+}
+
+.welcome p {
+  font-family: "Rubik", sans-serif;
+  font-size: calc(5px + 1vw);
+  color: white;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.developer {
+  width: 20vw;
+  margin-top: 4vw;
 }
