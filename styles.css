@@ -410,6 +410,53 @@ input[type=submit]:hover {
   }
 } 
 
+/* FAQ page */
+.faq {
+  width: 100%;
+}
+
+.faq h1 {
+  text-decoration: underline;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.faq h2 {
+  text-decoration: underline;
+  padding: 0 7vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(247, 247, 247);
+  text-align: left;
+}
+
+.faq p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: rgb(247, 247, 247);
+  padding: 0 7vw;
+}
+
+.sources h3 {
+  padding: 0 2vw;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.sources {
+  text-align: center;
+  height: 3vw;
+}
+
+.sources li {
+  padding: 0 2vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.sources a {
+  text-decoration: underline;
+}
+
 /* Minecraft accounts table page */
 .minecraft-accounts h1, p {
   text-align: center;

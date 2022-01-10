@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Azecko</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo">Azecko</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="./index.html">Back to main page</a></li>
+        </ul>
+    </header>
+    <br><br><br><br><br>
+    <div class="faq">
+        <h1>FAQ</h1>
+        <br><br><br>
+
+        <h2>1. Expliquer la différence entre une requête HTTP synchrone et asynchrone.</h2>
+        <br>
+        <p><strong>Une requête synchrone</strong> bloque le client jusqu'à la fin de l'opération (ainsi que le moteur javascript du navigateur).<br><br>
+        <strong>Une requête asynchrone</strong> ne bloque pas le client, ce qui veut dire que le client peut effectuer d'autres opérations. Le moteur javascript du navigatauer n'est pas bloqué.</p>
+        <br><br><br><br><br>
+
+        <h2>2. Expliquer les différences fondamentales entre 3 navigateurs web et expliquer où on peut trouver leur compatibilité CSS</h2>
+        <br>
+        <p><strong>Google Chrome</strong> est le navigateur le plus utilisé dans le monde. Probablement car il a été crée par Google mais aussi car quand on ne l'utilise pas et que l'on navigue sur Google, cela nous propose de l'installer.
+        Il est très utilisé car il est très facile de compréhension et possède toutes les fonctionnalités demandées à un navigateur web. <br><br>
+        <strong>Mozilla Firefox</strong> est un navigateur libre proposé par la fondation Mozilla. Il ressemble à Google Chrome sur beaucoup d'aspects, mais s'en démarque sur d'autres. Contrairement à Google Chrome, Firefox ne collecte aucune donnée durant l'utilisation (sauf de télémétrie non activée par défaut).
+        Il propose aussi des protections contre le pistage spécifique comme <a class="underline" href="https://support.mozilla.org/fr/kb/blocage-contenu-mixte-firefox" target="_blank">le blocage de contenu</a>, ou encore <a class="underline" href="https://support.mozilla.org/fr/kb/conteneurs" target="_blank">les onglets contextuels.</a>
+        Personnellement en tant que développeur, je préfère les outils de développement que Firefox propose. <br><br>
+        <strong>Microsoft Edge</strong> est le grand frère de Internet Explorer qui n'est maintenant plus mis à jour. C'est le navigateur par défaut installé sur les machines possédant l'OS Windows. Grâce à cela, il a dépassé le nombre d'utilisateurs de Firefox.
+        Personnellement je ne l'utiliserai pas, car il appartient à Microsoft et vole certainement un nombre de données considérables. Sinon, cela reste un bon navigateur mais qui, je trouve, reste moins performant que les navigateurs cités précédemment.</p>
+        <br><br><br><br><br>
+
+        <h2>3. Écrire vos recommandations (best practice) pour programmer un site web en HTML / CSS.</h2>
+        <br>
+        <p>Le meilleur conseil que je peux donner c'est de ne pas copier du code que l'on ne comprend pas. Tant que l'on ne comprend pas l'entièreté de son code, de pourquoi cela fonctionne ou ne fonctionne pas, ce n'est pas bon.<br>
+        Quand on connait déjà bien l'HTML et le CSS, je peux conseiller d'utiliser des frameworks comme <a class="underline" href="https://getbootstrap.com/" target="_blank">Bootstrap</a> (qui n'est pas autorisé pour ce module) par exemple. Ce genre d'outil est très pratique pour éviter d'avoir à écrire trop de CSS, et pouvoir utiliser des classes CSS de qualité (car dans le cas de Bootstrap, ça a été crée par Twitter).<br></p>
+        <br><br><br><br><br>
+
+        <h2>4. Décrire les aspects juridiques qui doivent être pris en compte et respectés sur un site web(droits d'auteur, protection de la personnalité).</h2>
+        <br>
+        <p>Il faut toujours citer ses sources. Si on a utilisé une image qui ne provient pas de nous, on doit l'indiquer. Pareil pour les textes, les audios, etc... <br>
+        Si le site internet récolte des données, il est très important d'indiquer quelles données le site internet récupère de l'utilisateur. (voir <a class="underline" href="https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr" target="_blank">LPD</a> et <a class="underline" href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679#d1e2207-1-1" target="_blank">RGPD</a>).</p>
+        <br><br><br><br><br>
+
+        <h2>5. Quels sont les formats multimédias supportés nativement par HTML 5.</h2>
+        <br>
+        <p><strong>Images</strong> : GIF, ICO, JPEG, SVG, PNG et APNG. <br>
+        <strong>Vidéos</strong> : WebM, MP4 et Ogg. <br>
+        <strong>Audios</strong> : MP3, Ogg et WAV.</p>
+    </div>
+    <br><br><br><br><br><br><br>
+
+    <div class="sources">
+        <h3>Sources</h3>
+        <ul>
+            <li><a href="https://www.it-swarm-fr.com/fr/webserver/quelle-est-la-difference-entre-une-requete-http-asynchrone-et-synchrone/1073396856/" target="_blank">https://it-swarm-fr.com</a></li>
+            <li><a href="https://www.malekal.com/chrome-vs-firefox-quel-est-le-meilleur-lequel-choisir/" target="_blank">https://malekal.com</a></li>
+            <li><a href="https://www.w3schools.com/html/html_media.asp" target="_blank">https://w3schools.com</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
