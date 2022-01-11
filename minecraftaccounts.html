@@ -20,44 +20,45 @@
     <br><br><br><br><br>
     <div class="minecraft-accounts">
         <h1>My Minecraft accounts</h1><br><br>
-        <table class="styled-table">
+        <table class="styled-table sortable">
             <thead>
                 <tr>
                     <th>Username</th>
-                    <th>Speciality</th>
-                    <th>Average price*</th>
-                    <th>NameMC link</th>
+                    <th class="no-sort" style="pointer-events: none;">Speciality</th>
+                    <th>Estimated price ($)<span style="color: red;">*</span></th>
+                    <th class="no-sort" style="pointer-events: none;">NameMC link</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="active-row">
                     <td>Under</td>
                     <td>OG name</td>
-                    <td>4000$ - 6000$</td>
+                    <td>5000</td>
                     <td><a href="https://namemc.com/Under" target="_blank">Click</a></td>
                 </tr>
                 <tr class="active-row">
                     <td>Azecko</td>
                     <td>2012 minecon cape</td>
-                    <td>500$ - 700$</td>
+                    <td>600</td>
                     <td><a href="https://namemc.com/Azecko" target="_blank">Click</a></td>
                 </tr>
                 <tr class="active-row">
                     <td>Vord</td>
                     <td>2011 minecon cape</td>
-                    <td>700$ - 1000$</td>
+                    <td>800</td>
                     <td><a href="https://namemc.com/vord" target="_blank">Click</a></td>
                 </tr>
                 <tr class="active-row">
                     <td>Gelatii</td>
                     <td>2013 minecon cape</td>
-                    <td>400$ - 600$</td>
+                    <td>500</td>
                     <td><a href="https://namemc.com/Gelatii" target="_blank">Click</a></td>
                 </tr>
-                <!-- and so on... -->
             </tbody>
         </table><br><br>
-        <p>* : Prices are just average and can change because of Minecraft accounts market price changes.</p>
+        <p><span style="color: red;">*</span> : Prices are subject to change at any time due to markets constant state of flux.</p>
     </div> 
+    <link href="https://tofsjonas.github.io/sortable/sortable.css" rel="stylesheet" />
+    <script src="https://tofsjonas.github.io/sortable/sortable.js"></script>
 </body>
 </html>

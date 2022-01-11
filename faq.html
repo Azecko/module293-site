@@ -24,10 +24,10 @@
         <h1>FAQ</h1>
         <br><br><br>
 
-        <h2>1. Expliquer la différence entre une requête HTTP synchrone et asynchrone.</h2>
+        <h2>1. Expliquer la différence entre une requête HTTP synchrone et asynchrone</h2>
         <br>
-        <p><strong>Une requête synchrone</strong> bloque le client jusqu'à la fin de l'opération (ainsi que le moteur javascript du navigateur).<br><br>
-        <strong>Une requête asynchrone</strong> ne bloque pas le client, ce qui veut dire que le client peut effectuer d'autres opérations. Le moteur javascript du navigatauer n'est pas bloqué.</p>
+        <p><strong>Une requête synchrone</strong> bloque le client jusqu'à la fin de l'opération (ainsi que le moteur JavaScript du navigateur).<br><br>
+        <strong>Une requête asynchrone</strong> ne bloque pas le client, ce qui veut dire que le client peut effectuer d'autres opérations. Le moteur JavaScript du navigateur n'est pas bloqué.</p>
         <br><br><br><br><br>
 
         <h2>2. Expliquer les différences fondamentales entre 3 navigateurs web et expliquer où on peut trouver leur compatibilité CSS</h2>
@@ -38,26 +38,33 @@
         Il propose aussi des protections contre le pistage spécifique comme <a class="underline" href="https://support.mozilla.org/fr/kb/blocage-contenu-mixte-firefox" target="_blank">le blocage de contenu</a>, ou encore <a class="underline" href="https://support.mozilla.org/fr/kb/conteneurs" target="_blank">les onglets contextuels.</a>
         Personnellement en tant que développeur, je préfère les outils de développement que Firefox propose. <br><br>
         <strong>Microsoft Edge</strong> est le grand frère de Internet Explorer qui n'est maintenant plus mis à jour. C'est le navigateur par défaut installé sur les machines possédant l'OS Windows. Grâce à cela, il a dépassé le nombre d'utilisateurs de Firefox.
-        Personnellement je ne l'utiliserai pas, car il appartient à Microsoft et vole certainement un nombre de données considérables. Sinon, cela reste un bon navigateur mais qui, je trouve, reste moins performant que les navigateurs cités précédemment.</p>
+        Personnellement je ne l'utiliserai pas, car il appartient à Microsoft et vole certainement un nombre de données considérables. Sinon, cela reste un bon navigateur mais qui, je trouve, reste moins performant que les navigateurs cités précédemment.<br><br>
+        En terme de <a class="underline" href="https://fr.wikipedia.org/wiki/Moteur_de_rendu_HTML" target="_blank">moteurs de rendu</a>, <strong>Firefox</strong> utilise <a class="underline" href="https://en.wikipedia.org/wiki/Gecko_(software)" target="_blank">Gecko</a>, tandis que <strong>Chrome</strong> et <strong>Edge</strong> utilisent <a class="underline" href="https://en.wikipedia.org/wiki/Blink_(browser_engine)" target="_blank">Blink</a>. (Chrome utilisait précédemment <a class="underline" href="" target="_blank">WebKit</a>).<br>
+        Un moteur de rendu transforme le document HTML, ainsi que toutes les autres ressources associées à la page, en une représentation visuelle interactive pour l'utilisateur. C'est le coeur d'un navigateur web.<br>
+        Les 3 moteurs de rendu cités au-dessus sont <a class="underline" href="https://fr.wikipedia.org/wiki/Open_source" target="_blank">open source</a>.<br><br>
+        On peut trouver les différetes compatibilités CSS sur <a class="underline" href="https://caniuse.com" target="_blank">caniuse</a>.</p>
         <br><br><br><br><br>
 
-        <h2>3. Écrire vos recommandations (best practice) pour programmer un site web en HTML / CSS.</h2>
+        <h2>3. Écrire vos recommandations (best practice) pour programmer un site web en HTML / CSS</h2>
         <br>
         <p>Le meilleur conseil que je peux donner c'est de ne pas copier du code que l'on ne comprend pas. Tant que l'on ne comprend pas l'entièreté de son code, de pourquoi cela fonctionne ou ne fonctionne pas, ce n'est pas bon.<br>
-        Quand on connait déjà bien l'HTML et le CSS, je peux conseiller d'utiliser des frameworks comme <a class="underline" href="https://getbootstrap.com/" target="_blank">Bootstrap</a> (qui n'est pas autorisé pour ce module) par exemple. Ce genre d'outil est très pratique pour éviter d'avoir à écrire trop de CSS, et pouvoir utiliser des classes CSS de qualité (car dans le cas de Bootstrap, ça a été crée par Twitter).<br></p>
+        Quand on connaît déjà bien l'HTML et le CSS, je peux conseiller d'utiliser des frameworks comme <a class="underline" href="https://getbootstrap.com/" target="_blank">Bootstrap</a> (qui n'est pas autorisé pour ce module) par exemple. Ce genre d'outil est très pratique pour éviter d'avoir à écrire trop de CSS, et pouvoir utiliser des classes CSS de qualité (car dans le cas de Bootstrap, ça a été crée par Twitter).<br></p>
         <br><br><br><br><br>
 
-        <h2>4. Décrire les aspects juridiques qui doivent être pris en compte et respectés sur un site web(droits d'auteur, protection de la personnalité).</h2>
+        <h2>4. Décrire les aspects juridiques qui doivent être pris en compte et respectés sur un site web(droits d'auteur, protection de la personnalité)</h2>
         <br>
-        <p>Il faut toujours citer ses sources. Si on a utilisé une image qui ne provient pas de nous, on doit l'indiquer. Pareil pour les textes, les audios, etc... <br>
-        Si le site internet récolte des données, il est très important d'indiquer quelles données le site internet récupère de l'utilisateur. (voir <a class="underline" href="https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr" target="_blank">LPD</a> et <a class="underline" href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679#d1e2207-1-1" target="_blank">RGPD</a>).</p>
+        <p>Concernant les droits d'auteur, cela dépendra évidemment de la provenance.<br>
+        Si une image vient de <a class="underline" href="https://unsplash.com" target="_blank">Unsplash</a> par exemple, il n'y aurait pas besoin de citer la provenance de l'image car c'est un site qui propose des images libres de droits. (mais c'est toujours bien de le faire !)<br>
+        Si le site internet récolte des données, il est très important d'indiquer quelles données le site internet récupère de l'utilisateur. (voir <a class="underline" href="https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr" target="_blank">LPD</a> et <a class="underline" href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679#d1e2207-1-1" target="_blank">RGPD</a>).<br>
+        Cela dépend aussi des pays. En Suisse par exemple, le téléchargement dit "illégal" est autorisé, pas comme en France par exemple.<br>
+        Autre exemple, la suisse a inscrit dans sa loi le droit à un internet ouvert, ce qui à nouveau, n'est pas le cas en france. Voir <a class="underline" href="https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/fr#art_12_e" target="_blank">Art. 12e Internet ouvert</a></p>
         <br><br><br><br><br>
 
-        <h2>5. Quels sont les formats multimédias supportés nativement par HTML 5.</h2>
+        <h2>5. Quels sont les formats multimédias supportés nativement par HTML 5</h2>
         <br>
-        <p><strong>Images</strong> : GIF, ICO, JPEG, SVG, PNG et APNG. <br>
-        <strong>Vidéos</strong> : WebM, MP4 et Ogg. <br>
-        <strong>Audios</strong> : MP3, Ogg et WAV.</p>
+        <p><strong>Images</strong> : GIF, ICO, JPEG, SVG, PNG, WebP, AVIF et APNG.<br>
+        <strong>Vidéos</strong> : WebM, MP4, 3gp, mov, flac et Ogg. <br>
+        <strong>Audios</strong> : MP3, Ogg, 3gp, flac, MOV et WAV.</p>
     </div>
     <br><br><br><br><br><br><br>
 
@@ -67,6 +74,7 @@
             <li><a href="https://www.it-swarm-fr.com/fr/webserver/quelle-est-la-difference-entre-une-requete-http-asynchrone-et-synchrone/1073396856/" target="_blank">https://it-swarm-fr.com</a></li>
             <li><a href="https://www.malekal.com/chrome-vs-firefox-quel-est-le-meilleur-lequel-choisir/" target="_blank">https://malekal.com</a></li>
             <li><a href="https://www.w3schools.com/html/html_media.asp" target="_blank">https://w3schools.com</a></li>
+            <li><a href="https://wikipedia.org" target="_blank">https://wikipedia.org</a></li>
         </ul>
     </div>
 </body>
