@@ -31,5 +31,5 @@ trouver leur compatibilité CSS
 - [x] Création d'une page de contact
 - [x] Création d'une page FAQ (pour répondre aux questions de la documentation)
 - [x] Création d'une page avec un tableau pour lister mes comptes minecraft
-- [ ] Création d'une page présentation de mes projets
+- [x] Création d'une page présentation de mes projets
 - [ ] Vérifier si le site est valide W3C
