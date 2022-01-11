@@ -29,7 +29,7 @@ trouver leur compatibilité CSS
 - [x] Création du projet
 - [x] Création d'une "hero page" ou "welcome page"
 - [x] Création d'une page de contact
-- [ ] Création d'une page FAQ (pour répondre aux questions de la documentation)
+- [x] Création d'une page FAQ (pour répondre aux questions de la documentation)
 - [x] Création d'une page avec un tableau pour lister mes comptes minecraft
 - [ ] Création d'une page présentation de mes projets
 - [ ] Vérifier si le site est valide W3C
