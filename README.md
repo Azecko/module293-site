@@ -1,5 +1,5 @@
-# module293 - Site internet
-Bienvenue sur ce repository de mon examen pour le module `i293 - Créer et publier un site Web` !
+# Module 293 - site Internet
+Ce repository est le résultat de mon travail pour l'examen du module `i293 - Créer et publier un site web`, dans le cadre de l'apprentissage d'informaticien CFC en Suisse.
 
 ## Contraintes techniques du site web (imposées par les règles de l'examen de ce module)
 - Le site web doit être hébergé en ligne
