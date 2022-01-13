@@ -1,3 +1,4 @@
+[Lien du site](https://azecko.github.io/module293-site)
 # Module 293 - site Internet
 Ce repository est le résultat de mon travail pour l'examen du module `i293 - Créer et publier un site web`, dans le cadre de l'apprentissage d'informaticien CFC en Suisse.
 
